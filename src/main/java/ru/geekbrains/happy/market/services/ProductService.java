@@ -19,7 +19,11 @@ import java.util.stream.Collectors;
 public class ProductService {
     private final ProductRepository productRepository;
 
-    public Optional<ProductDto> findProductById(Long id) {
+    public Optional<Product> findProductById(Long id) {
+        return productRepository.findById(id);
+    }
+
+    public Optional<ProductDto> findProductDtoById(Long id) {
         return productRepository.findById(id).map(ProductDto::new);
     }
 
