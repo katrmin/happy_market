@@ -10,7 +10,6 @@ For further reference, please consider the following sections:
 * [Flyway Migration](https://docs.spring.io/spring-boot/docs/2.4.1/reference/htmlsingle/#howto-execute-flyway-database-migrations-on-startup)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.4.1/reference/htmlsingle/#boot-features-jpa-and-spring-data)
 
-
 ### Guides
 The following guides illustrate how to use some features concretely:
 
